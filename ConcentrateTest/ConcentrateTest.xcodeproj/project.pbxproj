@@ -1,0 +1,307 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A54526E416D91E1F004A902B /* FHCPointViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A54526E216D91E1F004A902B /* FHCPointViewController.m */; };
+		A54526E516D91E1F004A902B /* FHCPointViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A54526E316D91E1F004A902B /* FHCPointViewController.xib */; };
+		A545271816DC08AF004A902B /* schwarzer_punkt.png in Resources */ = {isa = PBXBuildFile; fileRef = A545271716DC08AF004A902B /* schwarzer_punkt.png */; };
+		A57EE3D716CD61420081590F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A57EE3D616CD61420081590F /* UIKit.framework */; };
+		A57EE3D916CD61420081590F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A57EE3D816CD61420081590F /* Foundation.framework */; };
+		A57EE3DB16CD61420081590F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A57EE3DA16CD61420081590F /* CoreGraphics.framework */; };
+		A57EE3E116CD61420081590F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A57EE3DF16CD61420081590F /* InfoPlist.strings */; };
+		A57EE3E316CD61420081590F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A57EE3E216CD61420081590F /* main.m */; };
+		A57EE3E716CD61420081590F /* FHCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A57EE3E616CD61420081590F /* FHCAppDelegate.m */; };
+		A57EE3E916CD61420081590F /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = A57EE3E816CD61420081590F /* Default.png */; };
+		A57EE3EB16CD61420081590F /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A57EE3EA16CD61420081590F /* Default@2x.png */; };
+		A57EE3ED16CD61420081590F /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A57EE3EC16CD61420081590F /* Default-568h@2x.png */; };
+		A57EE3FA16CD62410081590F /* FHCTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A57EE3F816CD62410081590F /* FHCTestViewController.m */; };
+		A57EE3FB16CD62410081590F /* FHCTestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A57EE3F916CD62410081590F /* FHCTestViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A54526E116D91E1F004A902B /* FHCPointViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FHCPointViewController.h; sourceTree = "<group>"; };
+		A54526E216D91E1F004A902B /* FHCPointViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FHCPointViewController.m; sourceTree = "<group>"; };
+		A54526E316D91E1F004A902B /* FHCPointViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FHCPointViewController.xib; sourceTree = "<group>"; };
+		A545271716DC08AF004A902B /* schwarzer_punkt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = schwarzer_punkt.png; sourceTree = "<group>"; };
+		A57EE3D216CD61420081590F /* ConcentrateTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ConcentrateTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A57EE3D616CD61420081590F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A57EE3D816CD61420081590F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A57EE3DA16CD61420081590F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A57EE3DE16CD61420081590F /* ConcentrateTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ConcentrateTest-Info.plist"; sourceTree = "<group>"; };
+		A57EE3E016CD61420081590F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A57EE3E216CD61420081590F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A57EE3E416CD61420081590F /* ConcentrateTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ConcentrateTest-Prefix.pch"; sourceTree = "<group>"; };
+		A57EE3E516CD61420081590F /* FHCAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FHCAppDelegate.h; sourceTree = "<group>"; };
+		A57EE3E616CD61420081590F /* FHCAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FHCAppDelegate.m; sourceTree = "<group>"; };
+		A57EE3E816CD61420081590F /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		A57EE3EA16CD61420081590F /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		A57EE3EC16CD61420081590F /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		A57EE3F716CD62410081590F /* FHCTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FHCTestViewController.h; sourceTree = "<group>"; };
+		A57EE3F816CD62410081590F /* FHCTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FHCTestViewController.m; sourceTree = "<group>"; };
+		A57EE3F916CD62410081590F /* FHCTestViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FHCTestViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A57EE3CF16CD61420081590F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A57EE3D716CD61420081590F /* UIKit.framework in Frameworks */,
+				A57EE3D916CD61420081590F /* Foundation.framework in Frameworks */,
+				A57EE3DB16CD61420081590F /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A57EE3C716CD61420081590F = {
+			isa = PBXGroup;
+			children = (
+				A57EE3DC16CD61420081590F /* ConcentrateTest */,
+				A57EE3D516CD61420081590F /* Frameworks */,
+				A57EE3D316CD61420081590F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A57EE3D316CD61420081590F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A57EE3D216CD61420081590F /* ConcentrateTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A57EE3D516CD61420081590F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A57EE3D616CD61420081590F /* UIKit.framework */,
+				A57EE3D816CD61420081590F /* Foundation.framework */,
+				A57EE3DA16CD61420081590F /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A57EE3DC16CD61420081590F /* ConcentrateTest */ = {
+			isa = PBXGroup;
+			children = (
+				A545271716DC08AF004A902B /* schwarzer_punkt.png */,
+				A57EE3E516CD61420081590F /* FHCAppDelegate.h */,
+				A57EE3E616CD61420081590F /* FHCAppDelegate.m */,
+				A57EE3F716CD62410081590F /* FHCTestViewController.h */,
+				A57EE3F816CD62410081590F /* FHCTestViewController.m */,
+				A57EE3F916CD62410081590F /* FHCTestViewController.xib */,
+				A54526E116D91E1F004A902B /* FHCPointViewController.h */,
+				A54526E216D91E1F004A902B /* FHCPointViewController.m */,
+				A54526E316D91E1F004A902B /* FHCPointViewController.xib */,
+				A57EE3DD16CD61420081590F /* Supporting Files */,
+			);
+			path = ConcentrateTest;
+			sourceTree = "<group>";
+		};
+		A57EE3DD16CD61420081590F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A57EE3DE16CD61420081590F /* ConcentrateTest-Info.plist */,
+				A57EE3E216CD61420081590F /* main.m */,
+				A57EE3DF16CD61420081590F /* InfoPlist.strings */,
+				A57EE3E416CD61420081590F /* ConcentrateTest-Prefix.pch */,
+				A57EE3E816CD61420081590F /* Default.png */,
+				A57EE3EA16CD61420081590F /* Default@2x.png */,
+				A57EE3EC16CD61420081590F /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A57EE3D116CD61420081590F /* ConcentrateTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A57EE3F016CD61420081590F /* Build configuration list for PBXNativeTarget "ConcentrateTest" */;
+			buildPhases = (
+				A57EE3CE16CD61420081590F /* Sources */,
+				A57EE3CF16CD61420081590F /* Frameworks */,
+				A57EE3D016CD61420081590F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ConcentrateTest;
+			productName = ConcentrateTest;
+			productReference = A57EE3D216CD61420081590F /* ConcentrateTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A57EE3C916CD61420081590F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = FHC;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Natascha Fux";
+			};
+			buildConfigurationList = A57EE3CC16CD61420081590F /* Build configuration list for PBXProject "ConcentrateTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A57EE3C716CD61420081590F;
+			productRefGroup = A57EE3D316CD61420081590F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A57EE3D116CD61420081590F /* ConcentrateTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A57EE3D016CD61420081590F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A57EE3E116CD61420081590F /* InfoPlist.strings in Resources */,
+				A57EE3E916CD61420081590F /* Default.png in Resources */,
+				A57EE3EB16CD61420081590F /* Default@2x.png in Resources */,
+				A57EE3ED16CD61420081590F /* Default-568h@2x.png in Resources */,
+				A57EE3FB16CD62410081590F /* FHCTestViewController.xib in Resources */,
+				A54526E516D91E1F004A902B /* FHCPointViewController.xib in Resources */,
+				A545271816DC08AF004A902B /* schwarzer_punkt.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A57EE3CE16CD61420081590F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A57EE3E316CD61420081590F /* main.m in Sources */,
+				A57EE3E716CD61420081590F /* FHCAppDelegate.m in Sources */,
+				A57EE3FA16CD62410081590F /* FHCTestViewController.m in Sources */,
+				A54526E416D91E1F004A902B /* FHCPointViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A57EE3DF16CD61420081590F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A57EE3E016CD61420081590F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A57EE3EE16CD61420081590F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A57EE3EF16CD61420081590F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A57EE3F116CD61420081590F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ConcentrateTest/ConcentrateTest-Prefix.pch";
+				INFOPLIST_FILE = "ConcentrateTest/ConcentrateTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A57EE3F216CD61420081590F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ConcentrateTest/ConcentrateTest-Prefix.pch";
+				INFOPLIST_FILE = "ConcentrateTest/ConcentrateTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A57EE3CC16CD61420081590F /* Build configuration list for PBXProject "ConcentrateTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A57EE3EE16CD61420081590F /* Debug */,
+				A57EE3EF16CD61420081590F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A57EE3F016CD61420081590F /* Build configuration list for PBXNativeTarget "ConcentrateTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A57EE3F116CD61420081590F /* Debug */,
+				A57EE3F216CD61420081590F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A57EE3C916CD61420081590F /* Project object */;
+}
