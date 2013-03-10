@@ -10,6 +10,8 @@
 
 #import "FHCTestViewController.h"
 
+
+
 @implementation FHCAppDelegate
 
 @synthesize window = _window;
@@ -26,6 +28,9 @@
     return YES;
     
 }
+
+
+
 
 - (void)applicationWillResignActive:(UIApplication *)application
 {

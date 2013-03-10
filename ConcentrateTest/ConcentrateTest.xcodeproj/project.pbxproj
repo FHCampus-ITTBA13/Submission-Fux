@@ -10,6 +10,7 @@
 		A54526E416D91E1F004A902B /* FHCPointViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A54526E216D91E1F004A902B /* FHCPointViewController.m */; };
 		A54526E516D91E1F004A902B /* FHCPointViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A54526E316D91E1F004A902B /* FHCPointViewController.xib */; };
 		A545271816DC08AF004A902B /* schwarzer_punkt.png in Resources */ = {isa = PBXBuildFile; fileRef = A545271716DC08AF004A902B /* schwarzer_punkt.png */; };
+		A54636DB16EB6CC100F52893 /* stop copy.png in Resources */ = {isa = PBXBuildFile; fileRef = A54636DA16EB6CC100F52893 /* stop copy.png */; };
 		A57EE3D716CD61420081590F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A57EE3D616CD61420081590F /* UIKit.framework */; };
 		A57EE3D916CD61420081590F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A57EE3D816CD61420081590F /* Foundation.framework */; };
 		A57EE3DB16CD61420081590F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A57EE3DA16CD61420081590F /* CoreGraphics.framework */; };
@@ -28,6 +29,7 @@
 		A54526E216D91E1F004A902B /* FHCPointViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FHCPointViewController.m; sourceTree = "<group>"; };
 		A54526E316D91E1F004A902B /* FHCPointViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FHCPointViewController.xib; sourceTree = "<group>"; };
 		A545271716DC08AF004A902B /* schwarzer_punkt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = schwarzer_punkt.png; sourceTree = "<group>"; };
+		A54636DA16EB6CC100F52893 /* stop copy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "stop copy.png"; sourceTree = "<group>"; };
 		A57EE3D216CD61420081590F /* ConcentrateTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ConcentrateTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A57EE3D616CD61420081590F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		A57EE3D816CD61420081590F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -90,6 +92,7 @@
 		A57EE3DC16CD61420081590F /* ConcentrateTest */ = {
 			isa = PBXGroup;
 			children = (
+				A54636DA16EB6CC100F52893 /* stop copy.png */,
 				A545271716DC08AF004A902B /* schwarzer_punkt.png */,
 				A57EE3E516CD61420081590F /* FHCAppDelegate.h */,
 				A57EE3E616CD61420081590F /* FHCAppDelegate.m */,
@@ -177,6 +180,7 @@
 				A57EE3FB16CD62410081590F /* FHCTestViewController.xib in Resources */,
 				A54526E516D91E1F004A902B /* FHCPointViewController.xib in Resources */,
 				A545271816DC08AF004A902B /* schwarzer_punkt.png in Resources */,
+				A54636DB16EB6CC100F52893 /* stop copy.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

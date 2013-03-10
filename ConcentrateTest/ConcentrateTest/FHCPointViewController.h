@@ -10,6 +10,16 @@
 
 @interface FHCPointViewController : UIViewController
 
+{
+    IBOutlet UIImageView *point;
+    IBOutlet UIToolbar *stopTest;
+    IBOutlet UIView *stopImage;
+
+}
+
+@property IBOutlet UIToolbar *stopTest;
+@property IBOutlet UIImageView *point;
+
 
 
 @end

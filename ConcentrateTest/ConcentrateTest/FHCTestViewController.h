@@ -11,19 +11,25 @@
 
 @class FHCPointViewController;
 
-@interface FHCTestViewController : UIViewController
-
+@interface FHCTestViewController : UIViewController <UITextFieldDelegate>
 {
     IBOutlet UITextField *firstName;
     IBOutlet UITextField *lastName;
     IBOutlet UITextField *age;
+
     FHCPointViewController *pointViewController;
 }
 
--(IBAction)enterKeyName:(id)sender;
--(IBAction)enterKeyAge:(id)sender;
--(IBAction)okButton:(id)sender;
+@property UITextField *firstName;
+@property UITextField *lastName;
+@property UITextField *age;
 
-@property (strong, nonatomic) FHCPointViewController *pointViewController;
+@property (weak, nonatomic) IBOutlet UIButton *okButton;
+@property FHCPointViewController *pointViewController;
+
+-(IBAction)okButton:(id)sender;
+-(IBAction)stopKeyboard:(id)sender;
+
+
 
 @end

@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface FHCAppDelegate : UIResponder <UIApplicationDelegate>
+@interface FHCAppDelegate : NSObject <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
 

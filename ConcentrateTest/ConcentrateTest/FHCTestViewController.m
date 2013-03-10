@@ -12,14 +12,19 @@
 
 @implementation FHCTestViewController
 
+@synthesize okButton;
+@synthesize firstName;
+@synthesize lastName;
+@synthesize age;
 @synthesize pointViewController;
+
+
 
 -(id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
-    self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
-    if(self){
+    self = [super initWithNibName: nibNameOrNil bundle:nibBundleOrNil];
+    if (self)                      
         [self setTitle:@"Konzentrationstest"];
-    }
     return self;
 }
 
@@ -29,22 +34,20 @@
 
 }
 
-- (IBAction)enterKeyName:(id)sender {
-    
+- (IBAction)stopKeyboard:(id)sender
+{
     [firstName resignFirstResponder];
     [lastName resignFirstResponder];
-}
-
-- (IBAction)enterKeyAge:(id)sender {
-
     [age resignFirstResponder];
+
 }
 
 
 - (IBAction)okButton:(id)sender {
-    
-    [self.navigationController popViewControllerAnimated:YES];
-    [self setPointViewController:[[FHCPointViewController alloc]initWithNibName:@"PointViewController" bundle:nil]];
+
+    [self setPointViewController:[[FHCPointViewController alloc] initWithNibName:@"FHCPointViewController" bundle:nil]];
+        
+    [[self navigationController] pushViewController: [self pointViewController] animated:YES];
 }
 
 
