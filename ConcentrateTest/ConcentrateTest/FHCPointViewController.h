@@ -13,7 +13,7 @@
 {
     IBOutlet UIImageView *point;
     IBOutlet UIToolbar *stopTest;
-    IBOutlet UIView *stopImage;
+    IBOutlet UIImageView *stopImage;
 
 }
 

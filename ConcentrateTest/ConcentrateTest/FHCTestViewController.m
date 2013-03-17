@@ -10,15 +10,13 @@
 #import "FHCPointViewController.h"
 
 
+
 @implementation FHCTestViewController
 
-@synthesize okButton;
 @synthesize firstName;
 @synthesize lastName;
 @synthesize age;
 @synthesize pointViewController;
-
-
 
 -(id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -34,12 +32,18 @@
 
 }
 
-- (IBAction)stopKeyboard:(id)sender
+- (BOOL)textFieldShouldReturn:(UITextField *)textField {
+    
+    [textField resignFirstResponder];
+    return YES;
+}
+
+- (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event
 {
     [firstName resignFirstResponder];
     [lastName resignFirstResponder];
     [age resignFirstResponder];
-
+    [super touchesBegan:touches withEvent:event];
 }
 
 
@@ -47,7 +51,7 @@
 
     [self setPointViewController:[[FHCPointViewController alloc] initWithNibName:@"FHCPointViewController" bundle:nil]];
         
-    [[self navigationController] pushViewController: [self pointViewController] animated:YES];
+    [self.navigationController pushViewController: [self pointViewController] animated:YES];
 }
 
 

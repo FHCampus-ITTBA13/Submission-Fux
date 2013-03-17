@@ -7,13 +7,18 @@
 //
 
 #import "FHCPointViewController.h"
-#import "FHCStopView.h"
+#import "FHCRedFrameView.h"
+
+@interface FHCPointViewController ()
+
+@property (strong, nonatomic) IBOutlet FHCRedFrameView *redFrame;
+
+@end
 
 @implementation FHCPointViewController
 
 @synthesize point;
 @synthesize stopTest;
-
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -27,25 +32,22 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    // Do any additional setup after loading the view from its nib.
+
     [stopImage setAlpha:0.0];
+    [_redFrame setAlpha:0.0];
     
 }
 
 -(IBAction)stopTest:(id)sender
 {
-
-    [stopImage setCenter: CGPointMake(160, 200)];
+    [stopImage setCenter: CGPointMake(140, 80)];
     [stopImage setBounds:CGRectMake(0, 0, 200, 150)];
+
     [stopImage setAlpha:1.0];
+    [_redFrame setAlpha:1.0];
 
-    
-}
--(void)viewWillAppear:(BOOL)animated
-{
-    
-}
 
+}
 
 - (void)didReceiveMemoryWarning
 {

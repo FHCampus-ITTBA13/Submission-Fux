@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A5238DD316F496F40083E486 /* FHCRedFrameView.m in Sources */ = {isa = PBXBuildFile; fileRef = A5238DD216F496F40083E486 /* FHCRedFrameView.m */; };
 		A54526E416D91E1F004A902B /* FHCPointViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A54526E216D91E1F004A902B /* FHCPointViewController.m */; };
 		A54526E516D91E1F004A902B /* FHCPointViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A54526E316D91E1F004A902B /* FHCPointViewController.xib */; };
 		A545271816DC08AF004A902B /* schwarzer_punkt.png in Resources */ = {isa = PBXBuildFile; fileRef = A545271716DC08AF004A902B /* schwarzer_punkt.png */; };
@@ -22,9 +23,12 @@
 		A57EE3ED16CD61420081590F /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A57EE3EC16CD61420081590F /* Default-568h@2x.png */; };
 		A57EE3FA16CD62410081590F /* FHCTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A57EE3F816CD62410081590F /* FHCTestViewController.m */; };
 		A57EE3FB16CD62410081590F /* FHCTestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A57EE3F916CD62410081590F /* FHCTestViewController.xib */; };
+		A5DC77E716F615ED00EB1732 /* description.png in Resources */ = {isa = PBXBuildFile; fileRef = A5DC77E616F615ED00EB1732 /* description.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A5238DD116F496F40083E486 /* FHCRedFrameView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FHCRedFrameView.h; sourceTree = "<group>"; };
+		A5238DD216F496F40083E486 /* FHCRedFrameView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FHCRedFrameView.m; sourceTree = "<group>"; };
 		A54526E116D91E1F004A902B /* FHCPointViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FHCPointViewController.h; sourceTree = "<group>"; };
 		A54526E216D91E1F004A902B /* FHCPointViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FHCPointViewController.m; sourceTree = "<group>"; };
 		A54526E316D91E1F004A902B /* FHCPointViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FHCPointViewController.xib; sourceTree = "<group>"; };
@@ -46,6 +50,7 @@
 		A57EE3F716CD62410081590F /* FHCTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FHCTestViewController.h; sourceTree = "<group>"; };
 		A57EE3F816CD62410081590F /* FHCTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FHCTestViewController.m; sourceTree = "<group>"; };
 		A57EE3F916CD62410081590F /* FHCTestViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FHCTestViewController.xib; sourceTree = "<group>"; };
+		A5DC77E616F615ED00EB1732 /* description.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = description.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +97,7 @@
 		A57EE3DC16CD61420081590F /* ConcentrateTest */ = {
 			isa = PBXGroup;
 			children = (
+				A5DC77E616F615ED00EB1732 /* description.png */,
 				A54636DA16EB6CC100F52893 /* stop copy.png */,
 				A545271716DC08AF004A902B /* schwarzer_punkt.png */,
 				A57EE3E516CD61420081590F /* FHCAppDelegate.h */,
@@ -102,6 +108,8 @@
 				A54526E116D91E1F004A902B /* FHCPointViewController.h */,
 				A54526E216D91E1F004A902B /* FHCPointViewController.m */,
 				A54526E316D91E1F004A902B /* FHCPointViewController.xib */,
+				A5238DD116F496F40083E486 /* FHCRedFrameView.h */,
+				A5238DD216F496F40083E486 /* FHCRedFrameView.m */,
 				A57EE3DD16CD61420081590F /* Supporting Files */,
 			);
 			path = ConcentrateTest;
@@ -181,6 +189,7 @@
 				A54526E516D91E1F004A902B /* FHCPointViewController.xib in Resources */,
 				A545271816DC08AF004A902B /* schwarzer_punkt.png in Resources */,
 				A54636DB16EB6CC100F52893 /* stop copy.png in Resources */,
+				A5DC77E716F615ED00EB1732 /* description.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -195,6 +204,7 @@
 				A57EE3E716CD61420081590F /* FHCAppDelegate.m in Sources */,
 				A57EE3FA16CD62410081590F /* FHCTestViewController.m in Sources */,
 				A54526E416D91E1F004A902B /* FHCPointViewController.m in Sources */,
+				A5238DD316F496F40083E486 /* FHCRedFrameView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
